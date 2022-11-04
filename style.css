@@ -185,3 +185,28 @@ main {
     border-radius: 8px;
     padding: 1rem 4rem 4rem 2rem;
 }
+
+.trend {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.trend-table {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 8px;
+}
+
+.user {
+    font-size: 15px;
+}
+
+.full-name {
+    font-size: 16px;
+    color: #64748b;
+}
