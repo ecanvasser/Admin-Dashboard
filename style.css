@@ -183,7 +183,20 @@ main {
 .project {
     background-color: white;
     border-radius: 8px;
-    padding: 1rem 4rem 4rem 2rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-left: 7px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.proj-title {
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.proj-body {
+    font-size: 14px;
+    color: #64748b;
 }
 
 .trend {
@@ -209,4 +222,11 @@ main {
 .full-name {
     font-size: 16px;
     color: #64748b;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-top: 30px;
 }
