@@ -53,6 +53,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 1.1rem 4rem 1.1rem 4rem;
+    box-shadow: 8px 8px;
 }
 
 input {
@@ -123,10 +124,11 @@ button {
 
 main {
     display: flex;
-    background-color: #cbd5e1;
+    background-color: #e2e8f0;
     padding-top: 1.5rem;
     padding-bottom: 3rem;
     gap: 2rem;
+    box-shadow: inset 0px 2px 5px #94a3b8;
 }
 
 .main-left{
@@ -154,6 +156,7 @@ main {
     padding: 2.5rem;
     gap: 15px;
     border-radius: 8px;
+    box-shadow: 2px 2px 5px #94a3b8;
 }
 
 .ann-title {
@@ -187,6 +190,7 @@ main {
     border-left: 7px black solid;
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 2px 5px #94a3b8;
 }
 
 .proj-title {
@@ -213,6 +217,7 @@ main {
     background-color: white;
     padding: 2.5rem;
     border-radius: 8px;
+    box-shadow: 2px 2px 5px #94a3b8;
 }
 
 .user {
