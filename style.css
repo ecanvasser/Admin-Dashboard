@@ -121,7 +121,67 @@ button {
     padding: 8px 26px;
 }
 
-.main {
+main {
+    display: flex;
+    background-color: #cbd5e1;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    gap: 2rem;
+}
+
+.main-left{
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    background-color: #cbd5e1;
+    padding-left: 1.5rem;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-right {
+    display: grid;
+    width: 35%;
+    grid-template-rows: repeat(2, max-content);
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+.announce-table {
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.ann-title {
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.ann-body {
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 3px;
+}
+
+.ann-post:nth-child(1),
+.ann-post:nth-child(2) {
+    border-bottom: 1px #64748b solid;
+    padding-bottom: 15px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+.project {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem 4rem 4rem 2rem;
+}
